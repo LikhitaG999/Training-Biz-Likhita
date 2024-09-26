@@ -1,199 +1,199 @@
-    1  2024-09-26 12:50:01 sudo vi /etc/ssh/sshd_config
-    2  2024-09-26 12:50:01 sudo -i
-    3  2024-09-26 12:50:01 exit
-    4  2024-09-26 12:50:01 sudo -i
-    5  2024-09-26 12:50:01 exit
-    6  2024-09-26 12:50:01 cd .ssh
-    7  2024-09-26 12:50:01 ls
-    8  2024-09-26 12:50:01 ls -a
-    9  2024-09-26 12:50:01 mkdir .ssh
-   10  2024-09-26 12:50:01 touch authorized_keys
-   11  2024-09-26 12:50:01 ls -a
-   12  2024-09-26 12:50:01 cd .ssh
-   13  2024-09-26 12:50:01 touch authorized_keys
-   14  2024-09-26 12:50:01 ls -a
-   15  2024-09-26 12:50:01 vi authorized_keys
-   16  2024-09-26 12:50:01 exit
-   17  2024-09-26 12:50:01 sudo -i
-   18  2024-09-26 12:50:01 cd ~
-   19  2024-09-26 12:50:01 ls -a
-   20  2024-09-26 12:50:01 mkdir Task
-   21  2024-09-26 12:50:01 touch Task
-   22  2024-09-26 12:50:01 ls
-   23  2024-09-26 12:50:01 cd Task
-   24  2024-09-26 12:50:01 touch Source
-   25  2024-09-26 12:50:01 touch Code.sh
-   26  2024-09-26 12:50:01 touch Source.txt
-   27  2024-09-26 12:50:01 touch Output.txt
-   28  2024-09-26 12:50:01 vi code.sh
-   29  2024-09-26 12:50:01 vi Source.txt
-   30  2024-09-26 12:50:01 chmod +x mycode.sh
-   31  2024-09-26 12:50:01 ./code.sh Source.txt Output.txt
-   32  2024-09-26 12:50:01 chmod +x Code.sh
-   33  2024-09-26 12:50:01 ./code.sh Source.txt Output.txt
-   34  2024-09-26 12:50:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
-   35  2024-09-26 12:50:01 cat Output.txt
-   36  2024-09-26 12:50:01 vi Output.txt
-   37  2024-09-26 12:50:01 chmod +x Code.sh
-   38  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-   39  2024-09-26 12:50:01 vi Code.sh
-   40  2024-09-26 12:50:01 chmod +x Code.sh
-   41  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-   42  2024-09-26 12:50:01 vi Output.txt
-   43  2024-09-26 12:50:01 exit
-   44  2024-09-26 12:50:01 vi Source.txt
-   45  2024-09-26 12:50:01 vi Code.txt
-   46  2024-09-26 12:50:01 vi Code.sh
-   47  2024-09-26 12:50:01 ls
-   48  2024-09-26 12:50:01 cat Code.sh
-   49  2024-09-26 12:50:01 vi Code.sh
-   50  2024-09-26 12:50:01 cd Task
-   51  2024-09-26 12:50:01 vi Code.sh
-   52  2024-09-26 12:50:01 sudo -i
-   53  2024-09-26 12:50:01 ls
-   54  2024-09-26 12:50:01 cd Task
-   55  2024-09-26 12:50:01 ls
-   56  2024-09-26 12:50:01 vi Code.sh
-   57  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-   58  2024-09-26 12:50:01 vi Output.txt
-   59  2024-09-26 12:50:01 exit
-   60  2024-09-26 12:50:01 sudo -i
-   61  2024-09-26 12:50:01 cd Task
-   62  2024-09-26 12:50:01 ls
-   63  2024-09-26 12:50:01 vi Code.sh
-   64  2024-09-26 12:50:01 exit
-   65  2024-09-26 12:50:01 df -ah
-   66  2024-09-26 12:50:01 sudo yum update
-   67  2024-09-26 12:50:01 sudo su -i
-   68  2024-09-26 12:50:01 sudo -i
-   69  2024-09-26 12:50:01 exit
-   70  2024-09-26 12:50:01 sudo yum update
-   71  2024-09-26 12:50:01 sudo yum install java-1.8.0-openjdk\
-   72  2024-09-26 12:50:01 exit
-   73  2024-09-26 12:50:01 sudo yum install wget
-   74  2024-09-26 12:50:01 java -version
-   75  2024-09-26 12:50:01 cat /etc/redhat-release
-   76  2024-09-26 12:50:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   77  2024-09-26 12:50:01 java -version
-   78  2024-09-26 12:50:01 cat /etc/redhat-release
-   79  2024-09-26 12:50:01 ls
-   80  2024-09-26 12:50:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   81  2024-09-26 12:50:01 sudo yum update
-   82  2024-09-26 12:50:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   83  2024-09-26 12:50:01 yum install
-   84  2024-09-26 12:50:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   85  2024-09-26 12:50:01 sudo -i
-   86  2024-09-26 12:50:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
-   87  2024-09-26 12:50:01 ls
-   88  2024-09-26 12:50:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   89  2024-09-26 12:50:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-   90  2024-09-26 12:50:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-   91  2024-09-26 12:50:01 ls
-   92  2024-09-26 12:50:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-   93  2024-09-26 12:50:01 ls
-   94  2024-09-26 12:50:01 sudo yum localinstall 
-   95  2024-09-26 12:50:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-   96  2024-09-26 12:50:01 ls
-   97  2024-09-26 12:50:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-   98  2024-09-26 12:50:01 sudo vi /etc/ssh/sshd_config
-   99  2024-09-26 12:50:01 exit
-  100  2024-09-26 12:50:01 mkdir test.txt
-  101  2024-09-26 12:50:01 s
-  102  2024-09-26 12:50:01 ls
-  103  2024-09-26 12:50:01 cd test.txt
-  104  2024-09-26 12:50:01 touch training.txt
-  105  2024-09-26 12:50:01 ls
-  106  2024-09-26 12:50:01 rmdir test.txt
-  107  2024-09-26 12:50:01 cd..
-  108  2024-09-26 12:50:01 cd.
-  109  2024-09-26 12:50:01 exit
-  110  2024-09-26 12:50:01 rmdir test.txt
-  111  2024-09-26 12:50:01 cd test.txt
-  112  2024-09-26 12:50:01 rm treaining.txt
-  113  2024-09-26 12:50:01 rm training.txt
-  114  2024-09-26 12:50:01 cd..
-  115  2024-09-26 12:50:01 exit
-  116  2024-09-26 12:50:01 rmdir test.txt
-  117  2024-09-26 12:50:01 cd task
-  118  2024-09-26 12:50:01 cd assignment
-  119  2024-09-26 12:50:01 ls
-  120  2024-09-26 12:50:01 cd Task
-  121  2024-09-26 12:50:01 chmod +x Code.sh
-  122  2024-09-26 12:50:01 cd/
-  123  2024-09-26 12:50:01 cd/.
-  124  2024-09-26 12:50:01 cd - 
-  125  2024-09-26 12:50:01 mkdir test.txt
-  126  2024-09-26 12:50:01 touch file1.txt
-  127  2024-09-26 12:50:01 touch text2.txt
-  128  2024-09-26 12:50:01 rm text2.txt
-  129  2024-09-26 12:50:01 rmfile1.txt
-  130  2024-09-26 12:50:01 rm file1.txt
-  131  2024-09-26 12:50:01 cd test.txt
-  132  2024-09-26 12:50:01 ls
-  133  2024-09-26 12:50:01 touch file1.txt
-  134  2024-09-26 12:50:01 touch file2.txt
-  135  2024-09-26 12:50:01 ls
-  136  2024-09-26 12:50:01 vi file1.txt
-  137  2024-09-26 12:50:01 vi file2.txt
-  138  2024-09-26 12:50:01 cat file2.txt
-  139  2024-09-26 12:50:01 sed 'Boat' file2.txt? file1.txt
-  140  2024-09-26 12:50:01 sed 'Boat' file2.txt> file1.txt
-  141  2024-09-26 12:50:01 sed 's/Hello/Boat/g' file1.txt > output.txt
-  142  2024-09-26 12:50:01 ls
-  143  2024-09-26 12:50:01 sed -i 's/Hello/Boat/g' file1.txt
-  144  2024-09-26 12:50:01 cd - 
-  145  2024-09-26 12:50:01 free -g
-  146  2024-09-26 12:50:01 du -h
-  147  2024-09-26 12:50:01 df -ah
-  148  2024-09-26 12:50:01 exit
-  149  2024-09-26 12:50:01 ls
-  150  2024-09-26 12:50:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  151  2024-09-26 12:50:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  152  2024-09-26 12:50:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  153  2024-09-26 12:50:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  154  2024-09-26 12:50:01 export ORACLE_SID=XE
-  155  2024-09-26 12:50:01 export PATH=$PATH:$ORACLE_HOME/bin
-  156  2024-09-26 12:50:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
-  157  2024-09-26 12:50:01 sudo /etc/init.d/oracle-xe-21c configure
-  158  2024-09-26 12:50:01 sudo service oracle-xe-21c start
-  159  2024-09-26 12:50:01 sudo lsnrctl status
-  160  2024-09-26 12:50:01 sqlplus
-  161  2024-09-26 12:50:01 lsnrctl
-  162  2024-09-26 12:50:01 lsnrctl start
-  163  2024-09-26 12:50:01 netstat -ltnp
-  164  2024-09-26 12:50:01 exit
-  165  2024-09-26 12:50:01 lsnrctl start
-  166  2024-09-26 12:50:01 sudo service oracle-xe-21c start
-  167  2024-09-26 12:50:01 lsnrctl start
-  168  2024-09-26 12:50:01 sqlplus
-  169  2024-09-26 12:50:01 sudo lsnrctl status
-  170  2024-09-26 12:50:01 sqlplus
-  171  2024-09-26 12:50:01 sudo lsnrctl status
-  172  2024-09-26 12:50:01 lsnrctl start
-  173  2024-09-26 12:50:01 netstat -ltnp
-  174  2024-09-26 12:50:01 exit
-  175  2024-09-26 12:50:01 sqlplus
-  176  2024-09-26 12:50:01 -i
-  177  2024-09-26 12:50:01 sudo sqlplus
-  178  2024-09-26 12:50:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  179  2024-09-26 12:50:01 export ORACLE_SID=XE
-  180  2024-09-26 12:50:01 export PATH=$PATH:$ORACLE_HOME/bin
-  181  2024-09-26 12:50:01 sqlplus
-  182  2024-09-26 12:50:01 ls
-  183  2024-09-26 12:50:01 /opt/oracle/product/21c/dbhomeXE/bin
-  184  2024-09-26 12:50:01 cd /opt/oracle/product/21c/dbhomeXE/bin
-  185  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
-  186  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
-  187  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
-  188  2024-09-26 12:50:01 exit
-  189  2024-09-26 12:50:01 ssh ec2@13.48.177.173
-  190  2024-09-26 12:50:01 ssh likhi@13.48.177.173
-  191  2024-09-26 12:50:01 exit
-  192  2024-09-26 12:50:01 sudo yum install git
-  193  2024-09-26 12:50:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
-  194  2024-09-26 12:50:01 ls
-  195  2024-09-26 12:50:01 git remote -v
-  196  2024-09-26 12:50:01 exit
+    1  2024-09-26 12:55:01 sudo vi /etc/ssh/sshd_config
+    2  2024-09-26 12:55:01 sudo -i
+    3  2024-09-26 12:55:01 exit
+    4  2024-09-26 12:55:01 sudo -i
+    5  2024-09-26 12:55:01 exit
+    6  2024-09-26 12:55:01 cd .ssh
+    7  2024-09-26 12:55:01 ls
+    8  2024-09-26 12:55:01 ls -a
+    9  2024-09-26 12:55:01 mkdir .ssh
+   10  2024-09-26 12:55:01 touch authorized_keys
+   11  2024-09-26 12:55:01 ls -a
+   12  2024-09-26 12:55:01 cd .ssh
+   13  2024-09-26 12:55:01 touch authorized_keys
+   14  2024-09-26 12:55:01 ls -a
+   15  2024-09-26 12:55:01 vi authorized_keys
+   16  2024-09-26 12:55:01 exit
+   17  2024-09-26 12:55:01 sudo -i
+   18  2024-09-26 12:55:01 cd ~
+   19  2024-09-26 12:55:01 ls -a
+   20  2024-09-26 12:55:01 mkdir Task
+   21  2024-09-26 12:55:01 touch Task
+   22  2024-09-26 12:55:01 ls
+   23  2024-09-26 12:55:01 cd Task
+   24  2024-09-26 12:55:01 touch Source
+   25  2024-09-26 12:55:01 touch Code.sh
+   26  2024-09-26 12:55:01 touch Source.txt
+   27  2024-09-26 12:55:01 touch Output.txt
+   28  2024-09-26 12:55:01 vi code.sh
+   29  2024-09-26 12:55:01 vi Source.txt
+   30  2024-09-26 12:55:01 chmod +x mycode.sh
+   31  2024-09-26 12:55:01 ./code.sh Source.txt Output.txt
+   32  2024-09-26 12:55:01 chmod +x Code.sh
+   33  2024-09-26 12:55:01 ./code.sh Source.txt Output.txt
+   34  2024-09-26 12:55:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
+   35  2024-09-26 12:55:01 cat Output.txt
+   36  2024-09-26 12:55:01 vi Output.txt
+   37  2024-09-26 12:55:01 chmod +x Code.sh
+   38  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+   39  2024-09-26 12:55:01 vi Code.sh
+   40  2024-09-26 12:55:01 chmod +x Code.sh
+   41  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+   42  2024-09-26 12:55:01 vi Output.txt
+   43  2024-09-26 12:55:01 exit
+   44  2024-09-26 12:55:01 vi Source.txt
+   45  2024-09-26 12:55:01 vi Code.txt
+   46  2024-09-26 12:55:01 vi Code.sh
+   47  2024-09-26 12:55:01 ls
+   48  2024-09-26 12:55:01 cat Code.sh
+   49  2024-09-26 12:55:01 vi Code.sh
+   50  2024-09-26 12:55:01 cd Task
+   51  2024-09-26 12:55:01 vi Code.sh
+   52  2024-09-26 12:55:01 sudo -i
+   53  2024-09-26 12:55:01 ls
+   54  2024-09-26 12:55:01 cd Task
+   55  2024-09-26 12:55:01 ls
+   56  2024-09-26 12:55:01 vi Code.sh
+   57  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+   58  2024-09-26 12:55:01 vi Output.txt
+   59  2024-09-26 12:55:01 exit
+   60  2024-09-26 12:55:01 sudo -i
+   61  2024-09-26 12:55:01 cd Task
+   62  2024-09-26 12:55:01 ls
+   63  2024-09-26 12:55:01 vi Code.sh
+   64  2024-09-26 12:55:01 exit
+   65  2024-09-26 12:55:01 df -ah
+   66  2024-09-26 12:55:01 sudo yum update
+   67  2024-09-26 12:55:01 sudo su -i
+   68  2024-09-26 12:55:01 sudo -i
+   69  2024-09-26 12:55:01 exit
+   70  2024-09-26 12:55:01 sudo yum update
+   71  2024-09-26 12:55:01 sudo yum install java-1.8.0-openjdk\
+   72  2024-09-26 12:55:01 exit
+   73  2024-09-26 12:55:01 sudo yum install wget
+   74  2024-09-26 12:55:01 java -version
+   75  2024-09-26 12:55:01 cat /etc/redhat-release
+   76  2024-09-26 12:55:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   77  2024-09-26 12:55:01 java -version
+   78  2024-09-26 12:55:01 cat /etc/redhat-release
+   79  2024-09-26 12:55:01 ls
+   80  2024-09-26 12:55:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   81  2024-09-26 12:55:01 sudo yum update
+   82  2024-09-26 12:55:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   83  2024-09-26 12:55:01 yum install
+   84  2024-09-26 12:55:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   85  2024-09-26 12:55:01 sudo -i
+   86  2024-09-26 12:55:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
+   87  2024-09-26 12:55:01 ls
+   88  2024-09-26 12:55:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   89  2024-09-26 12:55:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   90  2024-09-26 12:55:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   91  2024-09-26 12:55:01 ls
+   92  2024-09-26 12:55:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   93  2024-09-26 12:55:01 ls
+   94  2024-09-26 12:55:01 sudo yum localinstall 
+   95  2024-09-26 12:55:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   96  2024-09-26 12:55:01 ls
+   97  2024-09-26 12:55:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   98  2024-09-26 12:55:01 sudo vi /etc/ssh/sshd_config
+   99  2024-09-26 12:55:01 exit
+  100  2024-09-26 12:55:01 mkdir test.txt
+  101  2024-09-26 12:55:01 s
+  102  2024-09-26 12:55:01 ls
+  103  2024-09-26 12:55:01 cd test.txt
+  104  2024-09-26 12:55:01 touch training.txt
+  105  2024-09-26 12:55:01 ls
+  106  2024-09-26 12:55:01 rmdir test.txt
+  107  2024-09-26 12:55:01 cd..
+  108  2024-09-26 12:55:01 cd.
+  109  2024-09-26 12:55:01 exit
+  110  2024-09-26 12:55:01 rmdir test.txt
+  111  2024-09-26 12:55:01 cd test.txt
+  112  2024-09-26 12:55:01 rm treaining.txt
+  113  2024-09-26 12:55:01 rm training.txt
+  114  2024-09-26 12:55:01 cd..
+  115  2024-09-26 12:55:01 exit
+  116  2024-09-26 12:55:01 rmdir test.txt
+  117  2024-09-26 12:55:01 cd task
+  118  2024-09-26 12:55:01 cd assignment
+  119  2024-09-26 12:55:01 ls
+  120  2024-09-26 12:55:01 cd Task
+  121  2024-09-26 12:55:01 chmod +x Code.sh
+  122  2024-09-26 12:55:01 cd/
+  123  2024-09-26 12:55:01 cd/.
+  124  2024-09-26 12:55:01 cd - 
+  125  2024-09-26 12:55:01 mkdir test.txt
+  126  2024-09-26 12:55:01 touch file1.txt
+  127  2024-09-26 12:55:01 touch text2.txt
+  128  2024-09-26 12:55:01 rm text2.txt
+  129  2024-09-26 12:55:01 rmfile1.txt
+  130  2024-09-26 12:55:01 rm file1.txt
+  131  2024-09-26 12:55:01 cd test.txt
+  132  2024-09-26 12:55:01 ls
+  133  2024-09-26 12:55:01 touch file1.txt
+  134  2024-09-26 12:55:01 touch file2.txt
+  135  2024-09-26 12:55:01 ls
+  136  2024-09-26 12:55:01 vi file1.txt
+  137  2024-09-26 12:55:01 vi file2.txt
+  138  2024-09-26 12:55:01 cat file2.txt
+  139  2024-09-26 12:55:01 sed 'Boat' file2.txt? file1.txt
+  140  2024-09-26 12:55:01 sed 'Boat' file2.txt> file1.txt
+  141  2024-09-26 12:55:01 sed 's/Hello/Boat/g' file1.txt > output.txt
+  142  2024-09-26 12:55:01 ls
+  143  2024-09-26 12:55:01 sed -i 's/Hello/Boat/g' file1.txt
+  144  2024-09-26 12:55:01 cd - 
+  145  2024-09-26 12:55:01 free -g
+  146  2024-09-26 12:55:01 du -h
+  147  2024-09-26 12:55:01 df -ah
+  148  2024-09-26 12:55:01 exit
+  149  2024-09-26 12:55:01 ls
+  150  2024-09-26 12:55:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  151  2024-09-26 12:55:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  152  2024-09-26 12:55:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  153  2024-09-26 12:55:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  154  2024-09-26 12:55:01 export ORACLE_SID=XE
+  155  2024-09-26 12:55:01 export PATH=$PATH:$ORACLE_HOME/bin
+  156  2024-09-26 12:55:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
+  157  2024-09-26 12:55:01 sudo /etc/init.d/oracle-xe-21c configure
+  158  2024-09-26 12:55:01 sudo service oracle-xe-21c start
+  159  2024-09-26 12:55:01 sudo lsnrctl status
+  160  2024-09-26 12:55:01 sqlplus
+  161  2024-09-26 12:55:01 lsnrctl
+  162  2024-09-26 12:55:01 lsnrctl start
+  163  2024-09-26 12:55:01 netstat -ltnp
+  164  2024-09-26 12:55:01 exit
+  165  2024-09-26 12:55:01 lsnrctl start
+  166  2024-09-26 12:55:01 sudo service oracle-xe-21c start
+  167  2024-09-26 12:55:01 lsnrctl start
+  168  2024-09-26 12:55:01 sqlplus
+  169  2024-09-26 12:55:01 sudo lsnrctl status
+  170  2024-09-26 12:55:01 sqlplus
+  171  2024-09-26 12:55:01 sudo lsnrctl status
+  172  2024-09-26 12:55:01 lsnrctl start
+  173  2024-09-26 12:55:01 netstat -ltnp
+  174  2024-09-26 12:55:01 exit
+  175  2024-09-26 12:55:01 sqlplus
+  176  2024-09-26 12:55:01 -i
+  177  2024-09-26 12:55:01 sudo sqlplus
+  178  2024-09-26 12:55:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  179  2024-09-26 12:55:01 export ORACLE_SID=XE
+  180  2024-09-26 12:55:01 export PATH=$PATH:$ORACLE_HOME/bin
+  181  2024-09-26 12:55:01 sqlplus
+  182  2024-09-26 12:55:01 ls
+  183  2024-09-26 12:55:01 /opt/oracle/product/21c/dbhomeXE/bin
+  184  2024-09-26 12:55:01 cd /opt/oracle/product/21c/dbhomeXE/bin
+  185  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  186  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
+  187  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
+  188  2024-09-26 12:55:01 exit
+  189  2024-09-26 12:55:01 ssh ec2@13.48.177.173
+  190  2024-09-26 12:55:01 ssh likhi@13.48.177.173
+  191  2024-09-26 12:55:01 exit
+  192  2024-09-26 12:55:01 sudo yum install git
+  193  2024-09-26 12:55:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
+  194  2024-09-26 12:55:01 ls
+  195  2024-09-26 12:55:01 git remote -v
+  196  2024-09-26 12:55:01 exit
   197  2024-09-26 12:45:18 # Load history from the history file manually
   198  2024-09-26 12:45:18 history -a
   199  2024-09-26 12:45:18 # Load history from the history file manually
@@ -212,224 +212,256 @@
   212  2024-09-26 12:45:18 git push origin main
   213  2024-09-26 12:50:01 # Load history from the history file manually
   214  2024-09-26 12:50:01 history -a
-  215  2024-09-26 12:50:01 history_file=~/.bash_history
-  216  2024-09-26 12:50:01 if [ -f $history_file ]; then     history -r $history_file  # Read the history file into the current session
+  215  2024-09-26 12:50:01 # Load history from the history file manually
+  216  2024-09-26 12:50:01 history -a
+  217  2024-09-26 12:50:01 # Navigate to your GitHub repo
+  218  2024-09-26 12:50:01 cd ~/Training-Biz-Likhita
+  219  2024-09-26 12:50:01 # Save the history to the commandslist.txt file inside the repo
+  220  2024-09-26 12:50:01 history > ./commandslist.txt
+  221  2024-09-26 12:50:01 # Get the current date and time
+  222  2024-09-26 12:50:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  223  2024-09-26 12:50:01 # Add the commandslist.txt file to Git
+  224  2024-09-26 12:50:01 git add ./commandslist.txt
+  225  2024-09-26 12:50:01 # Commit the changes with the current time in the message
+  226  2024-09-26 12:50:01 git commit -m "Committed at $current_time"
+  227  2024-09-26 12:50:01 # Push the changes to GitHub
+  228  2024-09-26 12:50:01 git push origin main
+  229  2024-09-26 12:55:01 # Load history from the history file manually
+  230  2024-09-26 12:55:01 history -a
+  231  2024-09-26 12:55:01 history_file=~/.bash_history
+  232  2024-09-26 12:55:01 if [ -f $history_file ]; then     history -r $history_file  # Read the history file into the current session
 fi
-  217  2024-09-26 12:50:01 sudo vi /etc/ssh/sshd_config
-  218  2024-09-26 12:50:01 sudo -i
-  219  2024-09-26 12:50:01 exit
-  220  2024-09-26 12:50:01 sudo -i
-  221  2024-09-26 12:50:01 exit
-  222  2024-09-26 12:50:01 cd .ssh
-  223  2024-09-26 12:50:01 ls
-  224  2024-09-26 12:50:01 ls -a
-  225  2024-09-26 12:50:01 mkdir .ssh
-  226  2024-09-26 12:50:01 touch authorized_keys
-  227  2024-09-26 12:50:01 ls -a
-  228  2024-09-26 12:50:01 cd .ssh
-  229  2024-09-26 12:50:01 touch authorized_keys
-  230  2024-09-26 12:50:01 ls -a
-  231  2024-09-26 12:50:01 vi authorized_keys
-  232  2024-09-26 12:50:01 exit
-  233  2024-09-26 12:50:01 sudo -i
-  234  2024-09-26 12:50:01 cd ~
-  235  2024-09-26 12:50:01 ls -a
-  236  2024-09-26 12:50:01 mkdir Task
-  237  2024-09-26 12:50:01 touch Task
-  238  2024-09-26 12:50:01 ls
-  239  2024-09-26 12:50:01 cd Task
-  240  2024-09-26 12:50:01 touch Source
-  241  2024-09-26 12:50:01 touch Code.sh
-  242  2024-09-26 12:50:01 touch Source.txt
-  243  2024-09-26 12:50:01 touch Output.txt
-  244  2024-09-26 12:50:01 vi code.sh
-  245  2024-09-26 12:50:01 vi Source.txt
-  246  2024-09-26 12:50:01 chmod +x mycode.sh
-  247  2024-09-26 12:50:01 ./code.sh Source.txt Output.txt
-  248  2024-09-26 12:50:01 chmod +x Code.sh
-  249  2024-09-26 12:50:01 ./code.sh Source.txt Output.txt
-  250  2024-09-26 12:50:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
-  251  2024-09-26 12:50:01 cat Output.txt
-  252  2024-09-26 12:50:01 vi Output.txt
-  253  2024-09-26 12:50:01 chmod +x Code.sh
-  254  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-  255  2024-09-26 12:50:01 vi Code.sh
-  256  2024-09-26 12:50:01 chmod +x Code.sh
-  257  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-  258  2024-09-26 12:50:01 vi Output.txt
-  259  2024-09-26 12:50:01 exit
-  260  2024-09-26 12:50:01 vi Source.txt
-  261  2024-09-26 12:50:01 vi Code.txt
-  262  2024-09-26 12:50:01 vi Code.sh
-  263  2024-09-26 12:50:01 ls
-  264  2024-09-26 12:50:01 cat Code.sh
-  265  2024-09-26 12:50:01 vi Code.sh
-  266  2024-09-26 12:50:01 cd Task
-  267  2024-09-26 12:50:01 vi Code.sh
-  268  2024-09-26 12:50:01 sudo -i
-  269  2024-09-26 12:50:01 ls
-  270  2024-09-26 12:50:01 cd Task
-  271  2024-09-26 12:50:01 ls
-  272  2024-09-26 12:50:01 vi Code.sh
-  273  2024-09-26 12:50:01 ./Code.sh Source.txt Output.txt
-  274  2024-09-26 12:50:01 vi Output.txt
-  275  2024-09-26 12:50:01 exit
-  276  2024-09-26 12:50:01 sudo -i
-  277  2024-09-26 12:50:01 cd Task
-  278  2024-09-26 12:50:01 ls
-  279  2024-09-26 12:50:01 vi Code.sh
-  280  2024-09-26 12:50:01 exit
-  281  2024-09-26 12:50:01 df -ah
-  282  2024-09-26 12:50:01 sudo yum update
-  283  2024-09-26 12:50:01 sudo su -i
-  284  2024-09-26 12:50:01 sudo -i
-  285  2024-09-26 12:50:01 exit
-  286  2024-09-26 12:50:01 sudo yum update
-  287  2024-09-26 12:50:01 sudo yum install java-1.8.0-openjdk\
-  288  2024-09-26 12:50:01 exit
-  289  2024-09-26 12:50:01 sudo yum install wget
-  290  2024-09-26 12:50:01 java -version
-  291  2024-09-26 12:50:01 cat /etc/redhat-release
-  292  2024-09-26 12:50:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  293  2024-09-26 12:50:01 java -version
-  294  2024-09-26 12:50:01 cat /etc/redhat-release
-  295  2024-09-26 12:50:01 ls
-  296  2024-09-26 12:50:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  297  2024-09-26 12:50:01 sudo yum update
-  298  2024-09-26 12:50:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  299  2024-09-26 12:50:01 yum install
-  300  2024-09-26 12:50:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  301  2024-09-26 12:50:01 sudo -i
-  302  2024-09-26 12:50:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
-  303  2024-09-26 12:50:01 ls
-  304  2024-09-26 12:50:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  305  2024-09-26 12:50:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  306  2024-09-26 12:50:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  307  2024-09-26 12:50:01 ls
-  308  2024-09-26 12:50:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  309  2024-09-26 12:50:01 ls
-  310  2024-09-26 12:50:01 sudo yum localinstall 
-  311  2024-09-26 12:50:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  312  2024-09-26 12:50:01 ls
-  313  2024-09-26 12:50:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  314  2024-09-26 12:50:01 sudo vi /etc/ssh/sshd_config
-  315  2024-09-26 12:50:01 exit
-  316  2024-09-26 12:50:01 mkdir test.txt
-  317  2024-09-26 12:50:01 s
-  318  2024-09-26 12:50:01 ls
-  319  2024-09-26 12:50:01 cd test.txt
-  320  2024-09-26 12:50:01 touch training.txt
-  321  2024-09-26 12:50:01 ls
-  322  2024-09-26 12:50:01 rmdir test.txt
-  323  2024-09-26 12:50:01 cd..
-  324  2024-09-26 12:50:01 cd.
-  325  2024-09-26 12:50:01 exit
-  326  2024-09-26 12:50:01 rmdir test.txt
-  327  2024-09-26 12:50:01 cd test.txt
-  328  2024-09-26 12:50:01 rm treaining.txt
-  329  2024-09-26 12:50:01 rm training.txt
-  330  2024-09-26 12:50:01 cd..
-  331  2024-09-26 12:50:01 exit
-  332  2024-09-26 12:50:01 rmdir test.txt
-  333  2024-09-26 12:50:01 cd task
-  334  2024-09-26 12:50:01 cd assignment
-  335  2024-09-26 12:50:01 ls
-  336  2024-09-26 12:50:01 cd Task
-  337  2024-09-26 12:50:01 chmod +x Code.sh
-  338  2024-09-26 12:50:01 cd/
-  339  2024-09-26 12:50:01 cd/.
-  340  2024-09-26 12:50:01 cd - 
-  341  2024-09-26 12:50:01 mkdir test.txt
-  342  2024-09-26 12:50:01 touch file1.txt
-  343  2024-09-26 12:50:01 touch text2.txt
-  344  2024-09-26 12:50:01 rm text2.txt
-  345  2024-09-26 12:50:01 rmfile1.txt
-  346  2024-09-26 12:50:01 rm file1.txt
-  347  2024-09-26 12:50:01 cd test.txt
-  348  2024-09-26 12:50:01 ls
-  349  2024-09-26 12:50:01 touch file1.txt
-  350  2024-09-26 12:50:01 touch file2.txt
-  351  2024-09-26 12:50:01 ls
-  352  2024-09-26 12:50:01 vi file1.txt
-  353  2024-09-26 12:50:01 vi file2.txt
-  354  2024-09-26 12:50:01 cat file2.txt
-  355  2024-09-26 12:50:01 sed 'Boat' file2.txt? file1.txt
-  356  2024-09-26 12:50:01 sed 'Boat' file2.txt> file1.txt
-  357  2024-09-26 12:50:01 sed 's/Hello/Boat/g' file1.txt > output.txt
-  358  2024-09-26 12:50:01 ls
-  359  2024-09-26 12:50:01 sed -i 's/Hello/Boat/g' file1.txt
-  360  2024-09-26 12:50:01 cd - 
-  361  2024-09-26 12:50:01 free -g
-  362  2024-09-26 12:50:01 du -h
-  363  2024-09-26 12:50:01 df -ah
-  364  2024-09-26 12:50:01 exit
-  365  2024-09-26 12:50:01 ls
-  366  2024-09-26 12:50:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  367  2024-09-26 12:50:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  368  2024-09-26 12:50:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  369  2024-09-26 12:50:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  370  2024-09-26 12:50:01 export ORACLE_SID=XE
-  371  2024-09-26 12:50:01 export PATH=$PATH:$ORACLE_HOME/bin
-  372  2024-09-26 12:50:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
-  373  2024-09-26 12:50:01 sudo /etc/init.d/oracle-xe-21c configure
-  374  2024-09-26 12:50:01 sudo service oracle-xe-21c start
-  375  2024-09-26 12:50:01 sudo lsnrctl status
-  376  2024-09-26 12:50:01 sqlplus
-  377  2024-09-26 12:50:01 lsnrctl
-  378  2024-09-26 12:50:01 lsnrctl start
-  379  2024-09-26 12:50:01 netstat -ltnp
-  380  2024-09-26 12:50:01 exit
-  381  2024-09-26 12:50:01 lsnrctl start
-  382  2024-09-26 12:50:01 sudo service oracle-xe-21c start
-  383  2024-09-26 12:50:01 lsnrctl start
-  384  2024-09-26 12:50:01 sqlplus
-  385  2024-09-26 12:50:01 sudo lsnrctl status
-  386  2024-09-26 12:50:01 sqlplus
-  387  2024-09-26 12:50:01 sudo lsnrctl status
-  388  2024-09-26 12:50:01 lsnrctl start
-  389  2024-09-26 12:50:01 netstat -ltnp
-  390  2024-09-26 12:50:01 exit
-  391  2024-09-26 12:50:01 sqlplus
-  392  2024-09-26 12:50:01 -i
-  393  2024-09-26 12:50:01 sudo sqlplus
-  394  2024-09-26 12:50:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  395  2024-09-26 12:50:01 export ORACLE_SID=XE
-  396  2024-09-26 12:50:01 export PATH=$PATH:$ORACLE_HOME/bin
-  397  2024-09-26 12:50:01 sqlplus
-  398  2024-09-26 12:50:01 ls
-  399  2024-09-26 12:50:01 /opt/oracle/product/21c/dbhomeXE/bin
-  400  2024-09-26 12:50:01 cd /opt/oracle/product/21c/dbhomeXE/bin
-  401  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
-  402  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
-  403  2024-09-26 12:50:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
-  404  2024-09-26 12:50:01 exit
-  405  2024-09-26 12:50:01 ssh ec2@13.48.177.173
-  406  2024-09-26 12:50:01 ssh likhi@13.48.177.173
-  407  2024-09-26 12:50:01 exit
-  408  2024-09-26 12:50:01 sudo yum install git
-  409  2024-09-26 12:50:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
-  410  2024-09-26 12:50:01 ls
-  411  2024-09-26 12:50:01 git remote -v
-  412  2024-09-26 12:50:01 exit
-  413  2024-09-26 12:45:18 # Load history from the history file manually
-  414  2024-09-26 12:45:18 history -a
-  415  2024-09-26 12:45:18 # Load history from the history file manually
-  416  2024-09-26 12:45:18 history -a
-  417  2024-09-26 12:45:18 # Navigate to your GitHub repo
-  418  2024-09-26 12:45:18 cd ~/Training-Biz-Likhita
-  419  2024-09-26 12:45:18 # Save the history to the commandslist.txt file inside the repo
-  420  2024-09-26 12:45:18 history > ./commandslist.txt
-  421  2024-09-26 12:45:18 # Get the current date and time
-  422  2024-09-26 12:45:18 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  423  2024-09-26 12:45:18 # Add the commandslist.txt file to Git
-  424  2024-09-26 12:45:18 git add ./commandslist.txt
-  425  2024-09-26 12:45:18 # Commit the changes with the current time in the message
-  426  2024-09-26 12:45:18 git commit -m "Committed at $current_time"
-  427  2024-09-26 12:45:18 # Push the changes to GitHub
-  428  2024-09-26 12:45:18 git push origin main
-  429  2024-09-26 12:50:01 # Load history from the history file manually
-  430  2024-09-26 12:50:01 history -a
-  431  2024-09-26 12:50:01 # Navigate to your GitHub repo
-  432  2024-09-26 12:50:01 cd ~/Training-Biz-Likhita
-  433  2024-09-26 12:50:01 # Save the history to the commandslist.txt file inside the repo
-  434  2024-09-26 12:50:01 history > ./commandslist.txt
+  233  2024-09-26 12:55:01 sudo vi /etc/ssh/sshd_config
+  234  2024-09-26 12:55:01 sudo -i
+  235  2024-09-26 12:55:01 exit
+  236  2024-09-26 12:55:01 sudo -i
+  237  2024-09-26 12:55:01 exit
+  238  2024-09-26 12:55:01 cd .ssh
+  239  2024-09-26 12:55:01 ls
+  240  2024-09-26 12:55:01 ls -a
+  241  2024-09-26 12:55:01 mkdir .ssh
+  242  2024-09-26 12:55:01 touch authorized_keys
+  243  2024-09-26 12:55:01 ls -a
+  244  2024-09-26 12:55:01 cd .ssh
+  245  2024-09-26 12:55:01 touch authorized_keys
+  246  2024-09-26 12:55:01 ls -a
+  247  2024-09-26 12:55:01 vi authorized_keys
+  248  2024-09-26 12:55:01 exit
+  249  2024-09-26 12:55:01 sudo -i
+  250  2024-09-26 12:55:01 cd ~
+  251  2024-09-26 12:55:01 ls -a
+  252  2024-09-26 12:55:01 mkdir Task
+  253  2024-09-26 12:55:01 touch Task
+  254  2024-09-26 12:55:01 ls
+  255  2024-09-26 12:55:01 cd Task
+  256  2024-09-26 12:55:01 touch Source
+  257  2024-09-26 12:55:01 touch Code.sh
+  258  2024-09-26 12:55:01 touch Source.txt
+  259  2024-09-26 12:55:01 touch Output.txt
+  260  2024-09-26 12:55:01 vi code.sh
+  261  2024-09-26 12:55:01 vi Source.txt
+  262  2024-09-26 12:55:01 chmod +x mycode.sh
+  263  2024-09-26 12:55:01 ./code.sh Source.txt Output.txt
+  264  2024-09-26 12:55:01 chmod +x Code.sh
+  265  2024-09-26 12:55:01 ./code.sh Source.txt Output.txt
+  266  2024-09-26 12:55:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
+  267  2024-09-26 12:55:01 cat Output.txt
+  268  2024-09-26 12:55:01 vi Output.txt
+  269  2024-09-26 12:55:01 chmod +x Code.sh
+  270  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+  271  2024-09-26 12:55:01 vi Code.sh
+  272  2024-09-26 12:55:01 chmod +x Code.sh
+  273  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+  274  2024-09-26 12:55:01 vi Output.txt
+  275  2024-09-26 12:55:01 exit
+  276  2024-09-26 12:55:01 vi Source.txt
+  277  2024-09-26 12:55:01 vi Code.txt
+  278  2024-09-26 12:55:01 vi Code.sh
+  279  2024-09-26 12:55:01 ls
+  280  2024-09-26 12:55:01 cat Code.sh
+  281  2024-09-26 12:55:01 vi Code.sh
+  282  2024-09-26 12:55:01 cd Task
+  283  2024-09-26 12:55:01 vi Code.sh
+  284  2024-09-26 12:55:01 sudo -i
+  285  2024-09-26 12:55:01 ls
+  286  2024-09-26 12:55:01 cd Task
+  287  2024-09-26 12:55:01 ls
+  288  2024-09-26 12:55:01 vi Code.sh
+  289  2024-09-26 12:55:01 ./Code.sh Source.txt Output.txt
+  290  2024-09-26 12:55:01 vi Output.txt
+  291  2024-09-26 12:55:01 exit
+  292  2024-09-26 12:55:01 sudo -i
+  293  2024-09-26 12:55:01 cd Task
+  294  2024-09-26 12:55:01 ls
+  295  2024-09-26 12:55:01 vi Code.sh
+  296  2024-09-26 12:55:01 exit
+  297  2024-09-26 12:55:01 df -ah
+  298  2024-09-26 12:55:01 sudo yum update
+  299  2024-09-26 12:55:01 sudo su -i
+  300  2024-09-26 12:55:01 sudo -i
+  301  2024-09-26 12:55:01 exit
+  302  2024-09-26 12:55:01 sudo yum update
+  303  2024-09-26 12:55:01 sudo yum install java-1.8.0-openjdk\
+  304  2024-09-26 12:55:01 exit
+  305  2024-09-26 12:55:01 sudo yum install wget
+  306  2024-09-26 12:55:01 java -version
+  307  2024-09-26 12:55:01 cat /etc/redhat-release
+  308  2024-09-26 12:55:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  309  2024-09-26 12:55:01 java -version
+  310  2024-09-26 12:55:01 cat /etc/redhat-release
+  311  2024-09-26 12:55:01 ls
+  312  2024-09-26 12:55:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  313  2024-09-26 12:55:01 sudo yum update
+  314  2024-09-26 12:55:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  315  2024-09-26 12:55:01 yum install
+  316  2024-09-26 12:55:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  317  2024-09-26 12:55:01 sudo -i
+  318  2024-09-26 12:55:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
+  319  2024-09-26 12:55:01 ls
+  320  2024-09-26 12:55:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  321  2024-09-26 12:55:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  322  2024-09-26 12:55:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  323  2024-09-26 12:55:01 ls
+  324  2024-09-26 12:55:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  325  2024-09-26 12:55:01 ls
+  326  2024-09-26 12:55:01 sudo yum localinstall 
+  327  2024-09-26 12:55:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  328  2024-09-26 12:55:01 ls
+  329  2024-09-26 12:55:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  330  2024-09-26 12:55:01 sudo vi /etc/ssh/sshd_config
+  331  2024-09-26 12:55:01 exit
+  332  2024-09-26 12:55:01 mkdir test.txt
+  333  2024-09-26 12:55:01 s
+  334  2024-09-26 12:55:01 ls
+  335  2024-09-26 12:55:01 cd test.txt
+  336  2024-09-26 12:55:01 touch training.txt
+  337  2024-09-26 12:55:01 ls
+  338  2024-09-26 12:55:01 rmdir test.txt
+  339  2024-09-26 12:55:01 cd..
+  340  2024-09-26 12:55:01 cd.
+  341  2024-09-26 12:55:01 exit
+  342  2024-09-26 12:55:01 rmdir test.txt
+  343  2024-09-26 12:55:01 cd test.txt
+  344  2024-09-26 12:55:01 rm treaining.txt
+  345  2024-09-26 12:55:01 rm training.txt
+  346  2024-09-26 12:55:01 cd..
+  347  2024-09-26 12:55:01 exit
+  348  2024-09-26 12:55:01 rmdir test.txt
+  349  2024-09-26 12:55:01 cd task
+  350  2024-09-26 12:55:01 cd assignment
+  351  2024-09-26 12:55:01 ls
+  352  2024-09-26 12:55:01 cd Task
+  353  2024-09-26 12:55:01 chmod +x Code.sh
+  354  2024-09-26 12:55:01 cd/
+  355  2024-09-26 12:55:01 cd/.
+  356  2024-09-26 12:55:01 cd - 
+  357  2024-09-26 12:55:01 mkdir test.txt
+  358  2024-09-26 12:55:01 touch file1.txt
+  359  2024-09-26 12:55:01 touch text2.txt
+  360  2024-09-26 12:55:01 rm text2.txt
+  361  2024-09-26 12:55:01 rmfile1.txt
+  362  2024-09-26 12:55:01 rm file1.txt
+  363  2024-09-26 12:55:01 cd test.txt
+  364  2024-09-26 12:55:01 ls
+  365  2024-09-26 12:55:01 touch file1.txt
+  366  2024-09-26 12:55:01 touch file2.txt
+  367  2024-09-26 12:55:01 ls
+  368  2024-09-26 12:55:01 vi file1.txt
+  369  2024-09-26 12:55:01 vi file2.txt
+  370  2024-09-26 12:55:01 cat file2.txt
+  371  2024-09-26 12:55:01 sed 'Boat' file2.txt? file1.txt
+  372  2024-09-26 12:55:01 sed 'Boat' file2.txt> file1.txt
+  373  2024-09-26 12:55:01 sed 's/Hello/Boat/g' file1.txt > output.txt
+  374  2024-09-26 12:55:01 ls
+  375  2024-09-26 12:55:01 sed -i 's/Hello/Boat/g' file1.txt
+  376  2024-09-26 12:55:01 cd - 
+  377  2024-09-26 12:55:01 free -g
+  378  2024-09-26 12:55:01 du -h
+  379  2024-09-26 12:55:01 df -ah
+  380  2024-09-26 12:55:01 exit
+  381  2024-09-26 12:55:01 ls
+  382  2024-09-26 12:55:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  383  2024-09-26 12:55:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  384  2024-09-26 12:55:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  385  2024-09-26 12:55:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  386  2024-09-26 12:55:01 export ORACLE_SID=XE
+  387  2024-09-26 12:55:01 export PATH=$PATH:$ORACLE_HOME/bin
+  388  2024-09-26 12:55:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
+  389  2024-09-26 12:55:01 sudo /etc/init.d/oracle-xe-21c configure
+  390  2024-09-26 12:55:01 sudo service oracle-xe-21c start
+  391  2024-09-26 12:55:01 sudo lsnrctl status
+  392  2024-09-26 12:55:01 sqlplus
+  393  2024-09-26 12:55:01 lsnrctl
+  394  2024-09-26 12:55:01 lsnrctl start
+  395  2024-09-26 12:55:01 netstat -ltnp
+  396  2024-09-26 12:55:01 exit
+  397  2024-09-26 12:55:01 lsnrctl start
+  398  2024-09-26 12:55:01 sudo service oracle-xe-21c start
+  399  2024-09-26 12:55:01 lsnrctl start
+  400  2024-09-26 12:55:01 sqlplus
+  401  2024-09-26 12:55:01 sudo lsnrctl status
+  402  2024-09-26 12:55:01 sqlplus
+  403  2024-09-26 12:55:01 sudo lsnrctl status
+  404  2024-09-26 12:55:01 lsnrctl start
+  405  2024-09-26 12:55:01 netstat -ltnp
+  406  2024-09-26 12:55:01 exit
+  407  2024-09-26 12:55:01 sqlplus
+  408  2024-09-26 12:55:01 -i
+  409  2024-09-26 12:55:01 sudo sqlplus
+  410  2024-09-26 12:55:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  411  2024-09-26 12:55:01 export ORACLE_SID=XE
+  412  2024-09-26 12:55:01 export PATH=$PATH:$ORACLE_HOME/bin
+  413  2024-09-26 12:55:01 sqlplus
+  414  2024-09-26 12:55:01 ls
+  415  2024-09-26 12:55:01 /opt/oracle/product/21c/dbhomeXE/bin
+  416  2024-09-26 12:55:01 cd /opt/oracle/product/21c/dbhomeXE/bin
+  417  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  418  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
+  419  2024-09-26 12:55:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
+  420  2024-09-26 12:55:01 exit
+  421  2024-09-26 12:55:01 ssh ec2@13.48.177.173
+  422  2024-09-26 12:55:01 ssh likhi@13.48.177.173
+  423  2024-09-26 12:55:01 exit
+  424  2024-09-26 12:55:01 sudo yum install git
+  425  2024-09-26 12:55:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
+  426  2024-09-26 12:55:01 ls
+  427  2024-09-26 12:55:01 git remote -v
+  428  2024-09-26 12:55:01 exit
+  429  2024-09-26 12:45:18 # Load history from the history file manually
+  430  2024-09-26 12:45:18 history -a
+  431  2024-09-26 12:45:18 # Load history from the history file manually
+  432  2024-09-26 12:45:18 history -a
+  433  2024-09-26 12:45:18 # Navigate to your GitHub repo
+  434  2024-09-26 12:45:18 cd ~/Training-Biz-Likhita
+  435  2024-09-26 12:45:18 # Save the history to the commandslist.txt file inside the repo
+  436  2024-09-26 12:45:18 history > ./commandslist.txt
+  437  2024-09-26 12:45:18 # Get the current date and time
+  438  2024-09-26 12:45:18 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  439  2024-09-26 12:45:18 # Add the commandslist.txt file to Git
+  440  2024-09-26 12:45:18 git add ./commandslist.txt
+  441  2024-09-26 12:45:18 # Commit the changes with the current time in the message
+  442  2024-09-26 12:45:18 git commit -m "Committed at $current_time"
+  443  2024-09-26 12:45:18 # Push the changes to GitHub
+  444  2024-09-26 12:45:18 git push origin main
+  445  2024-09-26 12:50:01 # Load history from the history file manually
+  446  2024-09-26 12:50:01 history -a
+  447  2024-09-26 12:50:01 # Load history from the history file manually
+  448  2024-09-26 12:50:01 history -a
+  449  2024-09-26 12:50:01 # Navigate to your GitHub repo
+  450  2024-09-26 12:50:01 cd ~/Training-Biz-Likhita
+  451  2024-09-26 12:50:01 # Save the history to the commandslist.txt file inside the repo
+  452  2024-09-26 12:50:01 history > ./commandslist.txt
+  453  2024-09-26 12:50:01 # Get the current date and time
+  454  2024-09-26 12:50:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  455  2024-09-26 12:50:01 # Add the commandslist.txt file to Git
+  456  2024-09-26 12:50:01 git add ./commandslist.txt
+  457  2024-09-26 12:50:01 # Commit the changes with the current time in the message
+  458  2024-09-26 12:50:01 git commit -m "Committed at $current_time"
+  459  2024-09-26 12:50:01 # Push the changes to GitHub
+  460  2024-09-26 12:50:01 git push origin main
+  461  2024-09-26 12:55:01 # Load history from the history file manually
+  462  2024-09-26 12:55:01 history -a
+  463  2024-09-26 12:55:01 # Navigate to your GitHub repo
+  464  2024-09-26 12:55:01 cd ~/Training-Biz-Likhita
+  465  2024-09-26 12:55:01 # Save the history to the commandslist.txt file inside the repo
+  466  2024-09-26 12:55:01 history > ./commandslist.txt
