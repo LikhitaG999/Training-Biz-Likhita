@@ -1,73 +1,41 @@
-  127  2024-09-26 13:20:01 touch text2.txt
-  128  2024-09-26 13:20:01 rm text2.txt
-  129  2024-09-26 13:20:01 rmfile1.txt
-  130  2024-09-26 13:20:01 rm file1.txt
-  131  2024-09-26 13:20:01 cd test.txt
-  132  2024-09-26 13:20:01 ls
-  133  2024-09-26 13:20:01 touch file1.txt
-  134  2024-09-26 13:20:01 touch file2.txt
-  135  2024-09-26 13:20:01 ls
-  136  2024-09-26 13:20:01 vi file1.txt
-  137  2024-09-26 13:20:01 vi file2.txt
-  138  2024-09-26 13:20:01 cat file2.txt
-  139  2024-09-26 13:20:01 sed 'Boat' file2.txt? file1.txt
-  140  2024-09-26 13:20:01 sed 'Boat' file2.txt> file1.txt
-  141  2024-09-26 13:20:01 sed 's/Hello/Boat/g' file1.txt > output.txt
-  142  2024-09-26 13:20:01 ls
-  143  2024-09-26 13:20:01 sed -i 's/Hello/Boat/g' file1.txt
-  144  2024-09-26 13:20:01 cd - 
-  145  2024-09-26 13:20:01 free -g
-  146  2024-09-26 13:20:01 du -h
-  147  2024-09-26 13:20:01 df -ah
-  148  2024-09-26 13:20:01 exit
-  149  2024-09-26 13:20:01 ls
-  150  2024-09-26 13:20:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  151  2024-09-26 13:20:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  152  2024-09-26 13:20:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  153  2024-09-26 13:20:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  154  2024-09-26 13:20:01 export ORACLE_SID=XE
-  155  2024-09-26 13:20:01 export PATH=$PATH:$ORACLE_HOME/bin
-  156  2024-09-26 13:20:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
-  157  2024-09-26 13:20:01 sudo /etc/init.d/oracle-xe-21c configure
-  158  2024-09-26 13:20:01 sudo service oracle-xe-21c start
-  159  2024-09-26 13:20:01 sudo lsnrctl status
-  160  2024-09-26 13:20:01 sqlplus
-  161  2024-09-26 13:20:01 lsnrctl
-  162  2024-09-26 13:20:01 lsnrctl start
-  163  2024-09-26 13:20:01 netstat -ltnp
-  164  2024-09-26 13:20:01 exit
-  165  2024-09-26 13:20:01 lsnrctl start
-  166  2024-09-26 13:20:01 sudo service oracle-xe-21c start
-  167  2024-09-26 13:20:01 lsnrctl start
-  168  2024-09-26 13:20:01 sqlplus
-  169  2024-09-26 13:20:01 sudo lsnrctl status
-  170  2024-09-26 13:20:01 sqlplus
-  171  2024-09-26 13:20:01 sudo lsnrctl status
-  172  2024-09-26 13:20:01 lsnrctl start
-  173  2024-09-26 13:20:01 netstat -ltnp
-  174  2024-09-26 13:20:01 exit
-  175  2024-09-26 13:20:01 sqlplus
-  176  2024-09-26 13:20:01 -i
-  177  2024-09-26 13:20:01 sudo sqlplus
-  178  2024-09-26 13:20:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  179  2024-09-26 13:20:01 export ORACLE_SID=XE
-  180  2024-09-26 13:20:01 export PATH=$PATH:$ORACLE_HOME/bin
-  181  2024-09-26 13:20:01 sqlplus
-  182  2024-09-26 13:20:01 ls
-  183  2024-09-26 13:20:01 /opt/oracle/product/21c/dbhomeXE/bin
-  184  2024-09-26 13:20:01 cd /opt/oracle/product/21c/dbhomeXE/bin
-  185  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
-  186  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
-  187  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
-  188  2024-09-26 13:20:01 exit
-  189  2024-09-26 13:20:01 ssh ec2@13.48.177.173
-  190  2024-09-26 13:20:01 ssh likhi@13.48.177.173
-  191  2024-09-26 13:20:01 exit
-  192  2024-09-26 13:20:01 sudo yum install git
-  193  2024-09-26 13:20:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
-  194  2024-09-26 13:20:01 ls
-  195  2024-09-26 13:20:01 git remote -v
-  196  2024-09-26 13:20:01 exit
+  159  2024-09-26 13:25:01 sudo lsnrctl status
+  160  2024-09-26 13:25:01 sqlplus
+  161  2024-09-26 13:25:01 lsnrctl
+  162  2024-09-26 13:25:01 lsnrctl start
+  163  2024-09-26 13:25:01 netstat -ltnp
+  164  2024-09-26 13:25:01 exit
+  165  2024-09-26 13:25:01 lsnrctl start
+  166  2024-09-26 13:25:01 sudo service oracle-xe-21c start
+  167  2024-09-26 13:25:01 lsnrctl start
+  168  2024-09-26 13:25:01 sqlplus
+  169  2024-09-26 13:25:01 sudo lsnrctl status
+  170  2024-09-26 13:25:01 sqlplus
+  171  2024-09-26 13:25:01 sudo lsnrctl status
+  172  2024-09-26 13:25:01 lsnrctl start
+  173  2024-09-26 13:25:01 netstat -ltnp
+  174  2024-09-26 13:25:01 exit
+  175  2024-09-26 13:25:01 sqlplus
+  176  2024-09-26 13:25:01 -i
+  177  2024-09-26 13:25:01 sudo sqlplus
+  178  2024-09-26 13:25:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  179  2024-09-26 13:25:01 export ORACLE_SID=XE
+  180  2024-09-26 13:25:01 export PATH=$PATH:$ORACLE_HOME/bin
+  181  2024-09-26 13:25:01 sqlplus
+  182  2024-09-26 13:25:01 ls
+  183  2024-09-26 13:25:01 /opt/oracle/product/21c/dbhomeXE/bin
+  184  2024-09-26 13:25:01 cd /opt/oracle/product/21c/dbhomeXE/bin
+  185  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  186  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
+  187  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
+  188  2024-09-26 13:25:01 exit
+  189  2024-09-26 13:25:01 ssh ec2@13.48.177.173
+  190  2024-09-26 13:25:01 ssh likhi@13.48.177.173
+  191  2024-09-26 13:25:01 exit
+  192  2024-09-26 13:25:01 sudo yum install git
+  193  2024-09-26 13:25:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
+  194  2024-09-26 13:25:01 ls
+  195  2024-09-26 13:25:01 git remote -v
+  196  2024-09-26 13:25:01 exit
   197  2024-09-26 12:45:18 # Load history from the history file manually
   198  2024-09-26 12:45:18 history -a
   199  2024-09-26 12:45:18 # Load history from the history file manually
@@ -182,320 +150,352 @@
   308  2024-09-26 13:15:01 git push origin main
   309  2024-09-26 13:20:01 # Load history from the history file manually
   310  2024-09-26 13:20:01 history -a
-  311  2024-09-26 13:20:01 history_file=~/.bash_history
-  312  2024-09-26 13:20:01 if [ -f $history_file ]; then     history -r $history_file  # Read the history file into the current session
+  311  2024-09-26 13:20:01 # Load history from the history file manually
+  312  2024-09-26 13:20:01 history -a
+  313  2024-09-26 13:20:01 # Navigate to your GitHub repo
+  314  2024-09-26 13:20:01 cd ~/Training-Biz-Likhita
+  315  2024-09-26 13:20:01 # Save the history to the commandslist.txt file inside the repo
+  316  2024-09-26 13:20:01 history > ./commandslist.txt
+  317  2024-09-26 13:20:01 # Get the current date and time
+  318  2024-09-26 13:20:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  319  2024-09-26 13:20:01 # Add the commandslist.txt file to Git
+  320  2024-09-26 13:20:01 git add ./commandslist.txt
+  321  2024-09-26 13:20:01 # Commit the changes with the current time in the message
+  322  2024-09-26 13:20:01 git commit -m "Committed at $current_time"
+  323  2024-09-26 13:20:01 # Push the changes to GitHub
+  324  2024-09-26 13:20:01 git push origin main
+  325  2024-09-26 13:25:01 # Load history from the history file manually
+  326  2024-09-26 13:25:01 history -a
+  327  2024-09-26 13:25:01 history_file=~/.bash_history
+  328  2024-09-26 13:25:01 if [ -f $history_file ]; then     history -r $history_file  # Read the history file into the current session
 fi
-  313  2024-09-26 13:20:01 sudo vi /etc/ssh/sshd_config
-  314  2024-09-26 13:20:01 sudo -i
-  315  2024-09-26 13:20:01 exit
-  316  2024-09-26 13:20:01 sudo -i
-  317  2024-09-26 13:20:01 exit
-  318  2024-09-26 13:20:01 cd .ssh
-  319  2024-09-26 13:20:01 ls
-  320  2024-09-26 13:20:01 ls -a
-  321  2024-09-26 13:20:01 mkdir .ssh
-  322  2024-09-26 13:20:01 touch authorized_keys
-  323  2024-09-26 13:20:01 ls -a
-  324  2024-09-26 13:20:01 cd .ssh
-  325  2024-09-26 13:20:01 touch authorized_keys
-  326  2024-09-26 13:20:01 ls -a
-  327  2024-09-26 13:20:01 vi authorized_keys
-  328  2024-09-26 13:20:01 exit
-  329  2024-09-26 13:20:01 sudo -i
-  330  2024-09-26 13:20:01 cd ~
-  331  2024-09-26 13:20:01 ls -a
-  332  2024-09-26 13:20:01 mkdir Task
-  333  2024-09-26 13:20:01 touch Task
-  334  2024-09-26 13:20:01 ls
-  335  2024-09-26 13:20:01 cd Task
-  336  2024-09-26 13:20:01 touch Source
-  337  2024-09-26 13:20:01 touch Code.sh
-  338  2024-09-26 13:20:01 touch Source.txt
-  339  2024-09-26 13:20:01 touch Output.txt
-  340  2024-09-26 13:20:01 vi code.sh
-  341  2024-09-26 13:20:01 vi Source.txt
-  342  2024-09-26 13:20:01 chmod +x mycode.sh
-  343  2024-09-26 13:20:01 ./code.sh Source.txt Output.txt
-  344  2024-09-26 13:20:01 chmod +x Code.sh
-  345  2024-09-26 13:20:01 ./code.sh Source.txt Output.txt
-  346  2024-09-26 13:20:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
-  347  2024-09-26 13:20:01 cat Output.txt
-  348  2024-09-26 13:20:01 vi Output.txt
-  349  2024-09-26 13:20:01 chmod +x Code.sh
-  350  2024-09-26 13:20:01 ./Code.sh Source.txt Output.txt
-  351  2024-09-26 13:20:01 vi Code.sh
-  352  2024-09-26 13:20:01 chmod +x Code.sh
-  353  2024-09-26 13:20:01 ./Code.sh Source.txt Output.txt
-  354  2024-09-26 13:20:01 vi Output.txt
-  355  2024-09-26 13:20:01 exit
-  356  2024-09-26 13:20:01 vi Source.txt
-  357  2024-09-26 13:20:01 vi Code.txt
-  358  2024-09-26 13:20:01 vi Code.sh
-  359  2024-09-26 13:20:01 ls
-  360  2024-09-26 13:20:01 cat Code.sh
-  361  2024-09-26 13:20:01 vi Code.sh
-  362  2024-09-26 13:20:01 cd Task
-  363  2024-09-26 13:20:01 vi Code.sh
-  364  2024-09-26 13:20:01 sudo -i
-  365  2024-09-26 13:20:01 ls
-  366  2024-09-26 13:20:01 cd Task
-  367  2024-09-26 13:20:01 ls
-  368  2024-09-26 13:20:01 vi Code.sh
-  369  2024-09-26 13:20:01 ./Code.sh Source.txt Output.txt
-  370  2024-09-26 13:20:01 vi Output.txt
-  371  2024-09-26 13:20:01 exit
-  372  2024-09-26 13:20:01 sudo -i
-  373  2024-09-26 13:20:01 cd Task
-  374  2024-09-26 13:20:01 ls
-  375  2024-09-26 13:20:01 vi Code.sh
-  376  2024-09-26 13:20:01 exit
-  377  2024-09-26 13:20:01 df -ah
-  378  2024-09-26 13:20:01 sudo yum update
-  379  2024-09-26 13:20:01 sudo su -i
-  380  2024-09-26 13:20:01 sudo -i
-  381  2024-09-26 13:20:01 exit
-  382  2024-09-26 13:20:01 sudo yum update
-  383  2024-09-26 13:20:01 sudo yum install java-1.8.0-openjdk\
-  384  2024-09-26 13:20:01 exit
-  385  2024-09-26 13:20:01 sudo yum install wget
-  386  2024-09-26 13:20:01 java -version
-  387  2024-09-26 13:20:01 cat /etc/redhat-release
-  388  2024-09-26 13:20:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  389  2024-09-26 13:20:01 java -version
-  390  2024-09-26 13:20:01 cat /etc/redhat-release
-  391  2024-09-26 13:20:01 ls
-  392  2024-09-26 13:20:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  393  2024-09-26 13:20:01 sudo yum update
-  394  2024-09-26 13:20:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  395  2024-09-26 13:20:01 yum install
-  396  2024-09-26 13:20:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  397  2024-09-26 13:20:01 sudo -i
-  398  2024-09-26 13:20:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
-  399  2024-09-26 13:20:01 ls
-  400  2024-09-26 13:20:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  401  2024-09-26 13:20:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  402  2024-09-26 13:20:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  403  2024-09-26 13:20:01 ls
-  404  2024-09-26 13:20:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  405  2024-09-26 13:20:01 ls
-  406  2024-09-26 13:20:01 sudo yum localinstall 
-  407  2024-09-26 13:20:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  408  2024-09-26 13:20:01 ls
-  409  2024-09-26 13:20:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  410  2024-09-26 13:20:01 sudo vi /etc/ssh/sshd_config
-  411  2024-09-26 13:20:01 exit
-  412  2024-09-26 13:20:01 mkdir test.txt
-  413  2024-09-26 13:20:01 s
-  414  2024-09-26 13:20:01 ls
-  415  2024-09-26 13:20:01 cd test.txt
-  416  2024-09-26 13:20:01 touch training.txt
-  417  2024-09-26 13:20:01 ls
-  418  2024-09-26 13:20:01 rmdir test.txt
-  419  2024-09-26 13:20:01 cd..
-  420  2024-09-26 13:20:01 cd.
-  421  2024-09-26 13:20:01 exit
-  422  2024-09-26 13:20:01 rmdir test.txt
-  423  2024-09-26 13:20:01 cd test.txt
-  424  2024-09-26 13:20:01 rm treaining.txt
-  425  2024-09-26 13:20:01 rm training.txt
-  426  2024-09-26 13:20:01 cd..
-  427  2024-09-26 13:20:01 exit
-  428  2024-09-26 13:20:01 rmdir test.txt
-  429  2024-09-26 13:20:01 cd task
-  430  2024-09-26 13:20:01 cd assignment
-  431  2024-09-26 13:20:01 ls
-  432  2024-09-26 13:20:01 cd Task
-  433  2024-09-26 13:20:01 chmod +x Code.sh
-  434  2024-09-26 13:20:01 cd/
-  435  2024-09-26 13:20:01 cd/.
-  436  2024-09-26 13:20:01 cd - 
-  437  2024-09-26 13:20:01 mkdir test.txt
-  438  2024-09-26 13:20:01 touch file1.txt
-  439  2024-09-26 13:20:01 touch text2.txt
-  440  2024-09-26 13:20:01 rm text2.txt
-  441  2024-09-26 13:20:01 rmfile1.txt
-  442  2024-09-26 13:20:01 rm file1.txt
-  443  2024-09-26 13:20:01 cd test.txt
-  444  2024-09-26 13:20:01 ls
-  445  2024-09-26 13:20:01 touch file1.txt
-  446  2024-09-26 13:20:01 touch file2.txt
-  447  2024-09-26 13:20:01 ls
-  448  2024-09-26 13:20:01 vi file1.txt
-  449  2024-09-26 13:20:01 vi file2.txt
-  450  2024-09-26 13:20:01 cat file2.txt
-  451  2024-09-26 13:20:01 sed 'Boat' file2.txt? file1.txt
-  452  2024-09-26 13:20:01 sed 'Boat' file2.txt> file1.txt
-  453  2024-09-26 13:20:01 sed 's/Hello/Boat/g' file1.txt > output.txt
-  454  2024-09-26 13:20:01 ls
-  455  2024-09-26 13:20:01 sed -i 's/Hello/Boat/g' file1.txt
-  456  2024-09-26 13:20:01 cd - 
-  457  2024-09-26 13:20:01 free -g
-  458  2024-09-26 13:20:01 du -h
-  459  2024-09-26 13:20:01 df -ah
-  460  2024-09-26 13:20:01 exit
-  461  2024-09-26 13:20:01 ls
-  462  2024-09-26 13:20:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-  463  2024-09-26 13:20:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-  464  2024-09-26 13:20:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-  465  2024-09-26 13:20:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  466  2024-09-26 13:20:01 export ORACLE_SID=XE
-  467  2024-09-26 13:20:01 export PATH=$PATH:$ORACLE_HOME/bin
-  468  2024-09-26 13:20:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
-  469  2024-09-26 13:20:01 sudo /etc/init.d/oracle-xe-21c configure
-  470  2024-09-26 13:20:01 sudo service oracle-xe-21c start
-  471  2024-09-26 13:20:01 sudo lsnrctl status
-  472  2024-09-26 13:20:01 sqlplus
-  473  2024-09-26 13:20:01 lsnrctl
-  474  2024-09-26 13:20:01 lsnrctl start
-  475  2024-09-26 13:20:01 netstat -ltnp
-  476  2024-09-26 13:20:01 exit
-  477  2024-09-26 13:20:01 lsnrctl start
-  478  2024-09-26 13:20:01 sudo service oracle-xe-21c start
-  479  2024-09-26 13:20:01 lsnrctl start
-  480  2024-09-26 13:20:01 sqlplus
-  481  2024-09-26 13:20:01 sudo lsnrctl status
-  482  2024-09-26 13:20:01 sqlplus
-  483  2024-09-26 13:20:01 sudo lsnrctl status
-  484  2024-09-26 13:20:01 lsnrctl start
-  485  2024-09-26 13:20:01 netstat -ltnp
-  486  2024-09-26 13:20:01 exit
-  487  2024-09-26 13:20:01 sqlplus
-  488  2024-09-26 13:20:01 -i
-  489  2024-09-26 13:20:01 sudo sqlplus
-  490  2024-09-26 13:20:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-  491  2024-09-26 13:20:01 export ORACLE_SID=XE
-  492  2024-09-26 13:20:01 export PATH=$PATH:$ORACLE_HOME/bin
-  493  2024-09-26 13:20:01 sqlplus
-  494  2024-09-26 13:20:01 ls
-  495  2024-09-26 13:20:01 /opt/oracle/product/21c/dbhomeXE/bin
-  496  2024-09-26 13:20:01 cd /opt/oracle/product/21c/dbhomeXE/bin
-  497  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
-  498  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
-  499  2024-09-26 13:20:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
-  500  2024-09-26 13:20:01 exit
-  501  2024-09-26 13:20:01 ssh ec2@13.48.177.173
-  502  2024-09-26 13:20:01 ssh likhi@13.48.177.173
-  503  2024-09-26 13:20:01 exit
-  504  2024-09-26 13:20:01 sudo yum install git
-  505  2024-09-26 13:20:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
-  506  2024-09-26 13:20:01 ls
-  507  2024-09-26 13:20:01 git remote -v
-  508  2024-09-26 13:20:01 exit
-  509  2024-09-26 12:45:18 # Load history from the history file manually
-  510  2024-09-26 12:45:18 history -a
-  511  2024-09-26 12:45:18 # Load history from the history file manually
-  512  2024-09-26 12:45:18 history -a
-  513  2024-09-26 12:45:18 # Navigate to your GitHub repo
-  514  2024-09-26 12:45:18 cd ~/Training-Biz-Likhita
-  515  2024-09-26 12:45:18 # Save the history to the commandslist.txt file inside the repo
-  516  2024-09-26 12:45:18 history > ./commandslist.txt
-  517  2024-09-26 12:45:18 # Get the current date and time
-  518  2024-09-26 12:45:18 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  519  2024-09-26 12:45:18 # Add the commandslist.txt file to Git
-  520  2024-09-26 12:45:18 git add ./commandslist.txt
-  521  2024-09-26 12:45:18 # Commit the changes with the current time in the message
-  522  2024-09-26 12:45:18 git commit -m "Committed at $current_time"
-  523  2024-09-26 12:45:18 # Push the changes to GitHub
-  524  2024-09-26 12:45:18 git push origin main
-  525  2024-09-26 12:50:01 # Load history from the history file manually
-  526  2024-09-26 12:50:01 history -a
-  527  2024-09-26 12:50:01 # Load history from the history file manually
-  528  2024-09-26 12:50:01 history -a
-  529  2024-09-26 12:50:01 # Navigate to your GitHub repo
-  530  2024-09-26 12:50:01 cd ~/Training-Biz-Likhita
-  531  2024-09-26 12:50:01 # Save the history to the commandslist.txt file inside the repo
-  532  2024-09-26 12:50:01 history > ./commandslist.txt
-  533  2024-09-26 12:50:01 # Get the current date and time
-  534  2024-09-26 12:50:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  535  2024-09-26 12:50:01 # Add the commandslist.txt file to Git
-  536  2024-09-26 12:50:01 git add ./commandslist.txt
-  537  2024-09-26 12:50:01 # Commit the changes with the current time in the message
-  538  2024-09-26 12:50:01 git commit -m "Committed at $current_time"
-  539  2024-09-26 12:50:01 # Push the changes to GitHub
-  540  2024-09-26 12:50:01 git push origin main
-  541  2024-09-26 12:55:01 # Load history from the history file manually
-  542  2024-09-26 12:55:01 history -a
-  543  2024-09-26 12:55:01 # Load history from the history file manually
-  544  2024-09-26 12:55:01 history -a
-  545  2024-09-26 12:55:01 # Navigate to your GitHub repo
-  546  2024-09-26 12:55:01 cd ~/Training-Biz-Likhita
-  547  2024-09-26 12:55:01 # Save the history to the commandslist.txt file inside the repo
-  548  2024-09-26 12:55:01 history > ./commandslist.txt
-  549  2024-09-26 12:55:01 # Get the current date and time
-  550  2024-09-26 12:55:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  551  2024-09-26 12:55:01 # Add the commandslist.txt file to Git
-  552  2024-09-26 12:55:01 git add ./commandslist.txt
-  553  2024-09-26 12:55:01 # Commit the changes with the current time in the message
-  554  2024-09-26 12:55:01 git commit -m "Committed at $current_time"
-  555  2024-09-26 12:55:01 # Push the changes to GitHub
-  556  2024-09-26 12:55:01 git push origin main
-  557  2024-09-26 13:00:01 # Load history from the history file manually
-  558  2024-09-26 13:00:01 history -a
-  559  2024-09-26 13:00:01 # Load history from the history file manually
-  560  2024-09-26 13:00:01 history -a
-  561  2024-09-26 13:00:01 # Navigate to your GitHub repo
-  562  2024-09-26 13:00:01 cd ~/Training-Biz-Likhita
-  563  2024-09-26 13:00:01 # Save the history to the commandslist.txt file inside the repo
-  564  2024-09-26 13:00:01 history > ./commandslist.txt
-  565  2024-09-26 13:00:01 # Get the current date and time
-  566  2024-09-26 13:00:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  567  2024-09-26 13:00:01 # Add the commandslist.txt file to Git
-  568  2024-09-26 13:00:01 git add ./commandslist.txt
-  569  2024-09-26 13:00:01 # Commit the changes with the current time in the message
-  570  2024-09-26 13:00:01 git commit -m "Committed at $current_time"
-  571  2024-09-26 13:00:01 # Push the changes to GitHub
-  572  2024-09-26 13:00:01 git push origin main
-  573  2024-09-26 13:05:01 # Load history from the history file manually
-  574  2024-09-26 13:05:01 history -a
-  575  2024-09-26 13:05:01 # Load history from the history file manually
-  576  2024-09-26 13:05:01 history -a
-  577  2024-09-26 13:05:01 # Navigate to your GitHub repo
-  578  2024-09-26 13:05:01 cd ~/Training-Biz-Likhita
-  579  2024-09-26 13:05:01 # Save the history to the commandslist.txt file inside the repo
-  580  2024-09-26 13:05:01 history > ./commandslist.txt
-  581  2024-09-26 13:05:01 # Get the current date and time
-  582  2024-09-26 13:05:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  583  2024-09-26 13:05:01 # Add the commandslist.txt file to Git
-  584  2024-09-26 13:05:01 git add ./commandslist.txt
-  585  2024-09-26 13:05:01 # Commit the changes with the current time in the message
-  586  2024-09-26 13:05:01 git commit -m "Committed at $current_time"
-  587  2024-09-26 13:05:01 # Push the changes to GitHub
-  588  2024-09-26 13:05:01 git push origin main
-  589  2024-09-26 13:10:01 # Load history from the history file manually
-  590  2024-09-26 13:10:01 history -a
-  591  2024-09-26 13:10:01 # Load history from the history file manually
-  592  2024-09-26 13:10:01 history -a
-  593  2024-09-26 13:10:01 # Navigate to your GitHub repo
-  594  2024-09-26 13:10:01 cd ~/Training-Biz-Likhita
-  595  2024-09-26 13:10:01 # Save the history to the commandslist.txt file inside the repo
-  596  2024-09-26 13:10:01 history > ./commandslist.txt
-  597  2024-09-26 13:10:01 # Get the current date and time
-  598  2024-09-26 13:10:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  599  2024-09-26 13:10:01 # Add the commandslist.txt file to Git
-  600  2024-09-26 13:10:01 git add ./commandslist.txt
-  601  2024-09-26 13:10:01 # Commit the changes with the current time in the message
-  602  2024-09-26 13:10:01 git commit -m "Committed at $current_time"
-  603  2024-09-26 13:10:01 # Push the changes to GitHub
-  604  2024-09-26 13:10:01 git push origin main
-  605  2024-09-26 13:15:01 # Load history from the history file manually
-  606  2024-09-26 13:15:01 history -a
-  607  2024-09-26 13:15:01 # Load history from the history file manually
-  608  2024-09-26 13:15:01 history -a
-  609  2024-09-26 13:15:01 # Navigate to your GitHub repo
-  610  2024-09-26 13:15:01 cd ~/Training-Biz-Likhita
-  611  2024-09-26 13:15:01 # Save the history to the commandslist.txt file inside the repo
-  612  2024-09-26 13:15:01 history > ./commandslist.txt
-  613  2024-09-26 13:15:01 # Get the current date and time
-  614  2024-09-26 13:15:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
-  615  2024-09-26 13:15:01 # Add the commandslist.txt file to Git
-  616  2024-09-26 13:15:01 git add ./commandslist.txt
-  617  2024-09-26 13:15:01 # Commit the changes with the current time in the message
-  618  2024-09-26 13:15:01 git commit -m "Committed at $current_time"
-  619  2024-09-26 13:15:01 # Push the changes to GitHub
-  620  2024-09-26 13:15:01 git push origin main
-  621  2024-09-26 13:20:01 # Load history from the history file manually
-  622  2024-09-26 13:20:01 history -a
-  623  2024-09-26 13:20:01 # Navigate to your GitHub repo
-  624  2024-09-26 13:20:01 cd ~/Training-Biz-Likhita
-  625  2024-09-26 13:20:01 # Save the history to the commandslist.txt file inside the repo
-  626  2024-09-26 13:20:01 history > ./commandslist.txt
+  329  2024-09-26 13:25:01 sudo vi /etc/ssh/sshd_config
+  330  2024-09-26 13:25:01 sudo -i
+  331  2024-09-26 13:25:01 exit
+  332  2024-09-26 13:25:01 sudo -i
+  333  2024-09-26 13:25:01 exit
+  334  2024-09-26 13:25:01 cd .ssh
+  335  2024-09-26 13:25:01 ls
+  336  2024-09-26 13:25:01 ls -a
+  337  2024-09-26 13:25:01 mkdir .ssh
+  338  2024-09-26 13:25:01 touch authorized_keys
+  339  2024-09-26 13:25:01 ls -a
+  340  2024-09-26 13:25:01 cd .ssh
+  341  2024-09-26 13:25:01 touch authorized_keys
+  342  2024-09-26 13:25:01 ls -a
+  343  2024-09-26 13:25:01 vi authorized_keys
+  344  2024-09-26 13:25:01 exit
+  345  2024-09-26 13:25:01 sudo -i
+  346  2024-09-26 13:25:01 cd ~
+  347  2024-09-26 13:25:01 ls -a
+  348  2024-09-26 13:25:01 mkdir Task
+  349  2024-09-26 13:25:01 touch Task
+  350  2024-09-26 13:25:01 ls
+  351  2024-09-26 13:25:01 cd Task
+  352  2024-09-26 13:25:01 touch Source
+  353  2024-09-26 13:25:01 touch Code.sh
+  354  2024-09-26 13:25:01 touch Source.txt
+  355  2024-09-26 13:25:01 touch Output.txt
+  356  2024-09-26 13:25:01 vi code.sh
+  357  2024-09-26 13:25:01 vi Source.txt
+  358  2024-09-26 13:25:01 chmod +x mycode.sh
+  359  2024-09-26 13:25:01 ./code.sh Source.txt Output.txt
+  360  2024-09-26 13:25:01 chmod +x Code.sh
+  361  2024-09-26 13:25:01 ./code.sh Source.txt Output.txt
+  362  2024-09-26 13:25:01 chmod +x Code.sh  ./code.sh Source.txt Output.txt
+  363  2024-09-26 13:25:01 cat Output.txt
+  364  2024-09-26 13:25:01 vi Output.txt
+  365  2024-09-26 13:25:01 chmod +x Code.sh
+  366  2024-09-26 13:25:01 ./Code.sh Source.txt Output.txt
+  367  2024-09-26 13:25:01 vi Code.sh
+  368  2024-09-26 13:25:01 chmod +x Code.sh
+  369  2024-09-26 13:25:01 ./Code.sh Source.txt Output.txt
+  370  2024-09-26 13:25:01 vi Output.txt
+  371  2024-09-26 13:25:01 exit
+  372  2024-09-26 13:25:01 vi Source.txt
+  373  2024-09-26 13:25:01 vi Code.txt
+  374  2024-09-26 13:25:01 vi Code.sh
+  375  2024-09-26 13:25:01 ls
+  376  2024-09-26 13:25:01 cat Code.sh
+  377  2024-09-26 13:25:01 vi Code.sh
+  378  2024-09-26 13:25:01 cd Task
+  379  2024-09-26 13:25:01 vi Code.sh
+  380  2024-09-26 13:25:01 sudo -i
+  381  2024-09-26 13:25:01 ls
+  382  2024-09-26 13:25:01 cd Task
+  383  2024-09-26 13:25:01 ls
+  384  2024-09-26 13:25:01 vi Code.sh
+  385  2024-09-26 13:25:01 ./Code.sh Source.txt Output.txt
+  386  2024-09-26 13:25:01 vi Output.txt
+  387  2024-09-26 13:25:01 exit
+  388  2024-09-26 13:25:01 sudo -i
+  389  2024-09-26 13:25:01 cd Task
+  390  2024-09-26 13:25:01 ls
+  391  2024-09-26 13:25:01 vi Code.sh
+  392  2024-09-26 13:25:01 exit
+  393  2024-09-26 13:25:01 df -ah
+  394  2024-09-26 13:25:01 sudo yum update
+  395  2024-09-26 13:25:01 sudo su -i
+  396  2024-09-26 13:25:01 sudo -i
+  397  2024-09-26 13:25:01 exit
+  398  2024-09-26 13:25:01 sudo yum update
+  399  2024-09-26 13:25:01 sudo yum install java-1.8.0-openjdk\
+  400  2024-09-26 13:25:01 exit
+  401  2024-09-26 13:25:01 sudo yum install wget
+  402  2024-09-26 13:25:01 java -version
+  403  2024-09-26 13:25:01 cat /etc/redhat-release
+  404  2024-09-26 13:25:01 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  405  2024-09-26 13:25:01 java -version
+  406  2024-09-26 13:25:01 cat /etc/redhat-release
+  407  2024-09-26 13:25:01 ls
+  408  2024-09-26 13:25:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  409  2024-09-26 13:25:01 sudo yum update
+  410  2024-09-26 13:25:01 sudo yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  411  2024-09-26 13:25:01 yum install
+  412  2024-09-26 13:25:01 yum isntall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  413  2024-09-26 13:25:01 sudo -i
+  414  2024-09-26 13:25:01 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html#license-lightbox
+  415  2024-09-26 13:25:01 ls
+  416  2024-09-26 13:25:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  417  2024-09-26 13:25:01 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  418  2024-09-26 13:25:01 wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  419  2024-09-26 13:25:01 ls
+  420  2024-09-26 13:25:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  421  2024-09-26 13:25:01 ls
+  422  2024-09-26 13:25:01 sudo yum localinstall 
+  423  2024-09-26 13:25:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  424  2024-09-26 13:25:01 ls
+  425  2024-09-26 13:25:01 sudo yum localinstall  oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  426  2024-09-26 13:25:01 sudo vi /etc/ssh/sshd_config
+  427  2024-09-26 13:25:01 exit
+  428  2024-09-26 13:25:01 mkdir test.txt
+  429  2024-09-26 13:25:01 s
+  430  2024-09-26 13:25:01 ls
+  431  2024-09-26 13:25:01 cd test.txt
+  432  2024-09-26 13:25:01 touch training.txt
+  433  2024-09-26 13:25:01 ls
+  434  2024-09-26 13:25:01 rmdir test.txt
+  435  2024-09-26 13:25:01 cd..
+  436  2024-09-26 13:25:01 cd.
+  437  2024-09-26 13:25:01 exit
+  438  2024-09-26 13:25:01 rmdir test.txt
+  439  2024-09-26 13:25:01 cd test.txt
+  440  2024-09-26 13:25:01 rm treaining.txt
+  441  2024-09-26 13:25:01 rm training.txt
+  442  2024-09-26 13:25:01 cd..
+  443  2024-09-26 13:25:01 exit
+  444  2024-09-26 13:25:01 rmdir test.txt
+  445  2024-09-26 13:25:01 cd task
+  446  2024-09-26 13:25:01 cd assignment
+  447  2024-09-26 13:25:01 ls
+  448  2024-09-26 13:25:01 cd Task
+  449  2024-09-26 13:25:01 chmod +x Code.sh
+  450  2024-09-26 13:25:01 cd/
+  451  2024-09-26 13:25:01 cd/.
+  452  2024-09-26 13:25:01 cd - 
+  453  2024-09-26 13:25:01 mkdir test.txt
+  454  2024-09-26 13:25:01 touch file1.txt
+  455  2024-09-26 13:25:01 touch text2.txt
+  456  2024-09-26 13:25:01 rm text2.txt
+  457  2024-09-26 13:25:01 rmfile1.txt
+  458  2024-09-26 13:25:01 rm file1.txt
+  459  2024-09-26 13:25:01 cd test.txt
+  460  2024-09-26 13:25:01 ls
+  461  2024-09-26 13:25:01 touch file1.txt
+  462  2024-09-26 13:25:01 touch file2.txt
+  463  2024-09-26 13:25:01 ls
+  464  2024-09-26 13:25:01 vi file1.txt
+  465  2024-09-26 13:25:01 vi file2.txt
+  466  2024-09-26 13:25:01 cat file2.txt
+  467  2024-09-26 13:25:01 sed 'Boat' file2.txt? file1.txt
+  468  2024-09-26 13:25:01 sed 'Boat' file2.txt> file1.txt
+  469  2024-09-26 13:25:01 sed 's/Hello/Boat/g' file1.txt > output.txt
+  470  2024-09-26 13:25:01 ls
+  471  2024-09-26 13:25:01 sed -i 's/Hello/Boat/g' file1.txt
+  472  2024-09-26 13:25:01 cd - 
+  473  2024-09-26 13:25:01 free -g
+  474  2024-09-26 13:25:01 du -h
+  475  2024-09-26 13:25:01 df -ah
+  476  2024-09-26 13:25:01 exit
+  477  2024-09-26 13:25:01 ls
+  478  2024-09-26 13:25:01 sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  479  2024-09-26 13:25:01 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  480  2024-09-26 13:25:01 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  481  2024-09-26 13:25:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  482  2024-09-26 13:25:01 export ORACLE_SID=XE
+  483  2024-09-26 13:25:01 export PATH=$PATH:$ORACLE_HOME/bin
+  484  2024-09-26 13:25:01 sudo vi $ORACLE_HOME/cv/admin/cvu_config
+  485  2024-09-26 13:25:01 sudo /etc/init.d/oracle-xe-21c configure
+  486  2024-09-26 13:25:01 sudo service oracle-xe-21c start
+  487  2024-09-26 13:25:01 sudo lsnrctl status
+  488  2024-09-26 13:25:01 sqlplus
+  489  2024-09-26 13:25:01 lsnrctl
+  490  2024-09-26 13:25:01 lsnrctl start
+  491  2024-09-26 13:25:01 netstat -ltnp
+  492  2024-09-26 13:25:01 exit
+  493  2024-09-26 13:25:01 lsnrctl start
+  494  2024-09-26 13:25:01 sudo service oracle-xe-21c start
+  495  2024-09-26 13:25:01 lsnrctl start
+  496  2024-09-26 13:25:01 sqlplus
+  497  2024-09-26 13:25:01 sudo lsnrctl status
+  498  2024-09-26 13:25:01 sqlplus
+  499  2024-09-26 13:25:01 sudo lsnrctl status
+  500  2024-09-26 13:25:01 lsnrctl start
+  501  2024-09-26 13:25:01 netstat -ltnp
+  502  2024-09-26 13:25:01 exit
+  503  2024-09-26 13:25:01 sqlplus
+  504  2024-09-26 13:25:01 -i
+  505  2024-09-26 13:25:01 sudo sqlplus
+  506  2024-09-26 13:25:01 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  507  2024-09-26 13:25:01 export ORACLE_SID=XE
+  508  2024-09-26 13:25:01 export PATH=$PATH:$ORACLE_HOME/bin
+  509  2024-09-26 13:25:01 sqlplus
+  510  2024-09-26 13:25:01 ls
+  511  2024-09-26 13:25:01 /opt/oracle/product/21c/dbhomeXE/bin
+  512  2024-09-26 13:25:01 cd /opt/oracle/product/21c/dbhomeXE/bin
+  513  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  514  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/classicmodels.dmp log=/likhi/import.log FULL=Y
+  515  2024-09-26 13:25:01 imp classicmodels/classicmodels FILE=/home/likhi/classicmodels.dmp log=/home/likhi/import.log FULL=Y
+  516  2024-09-26 13:25:01 exit
+  517  2024-09-26 13:25:01 ssh ec2@13.48.177.173
+  518  2024-09-26 13:25:01 ssh likhi@13.48.177.173
+  519  2024-09-26 13:25:01 exit
+  520  2024-09-26 13:25:01 sudo yum install git
+  521  2024-09-26 13:25:01 git clone https://github.com/LikhitaG999/Training-Biz-Likhita.git
+  522  2024-09-26 13:25:01 ls
+  523  2024-09-26 13:25:01 git remote -v
+  524  2024-09-26 13:25:01 exit
+  525  2024-09-26 12:45:18 # Load history from the history file manually
+  526  2024-09-26 12:45:18 history -a
+  527  2024-09-26 12:45:18 # Load history from the history file manually
+  528  2024-09-26 12:45:18 history -a
+  529  2024-09-26 12:45:18 # Navigate to your GitHub repo
+  530  2024-09-26 12:45:18 cd ~/Training-Biz-Likhita
+  531  2024-09-26 12:45:18 # Save the history to the commandslist.txt file inside the repo
+  532  2024-09-26 12:45:18 history > ./commandslist.txt
+  533  2024-09-26 12:45:18 # Get the current date and time
+  534  2024-09-26 12:45:18 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  535  2024-09-26 12:45:18 # Add the commandslist.txt file to Git
+  536  2024-09-26 12:45:18 git add ./commandslist.txt
+  537  2024-09-26 12:45:18 # Commit the changes with the current time in the message
+  538  2024-09-26 12:45:18 git commit -m "Committed at $current_time"
+  539  2024-09-26 12:45:18 # Push the changes to GitHub
+  540  2024-09-26 12:45:18 git push origin main
+  541  2024-09-26 12:50:01 # Load history from the history file manually
+  542  2024-09-26 12:50:01 history -a
+  543  2024-09-26 12:50:01 # Load history from the history file manually
+  544  2024-09-26 12:50:01 history -a
+  545  2024-09-26 12:50:01 # Navigate to your GitHub repo
+  546  2024-09-26 12:50:01 cd ~/Training-Biz-Likhita
+  547  2024-09-26 12:50:01 # Save the history to the commandslist.txt file inside the repo
+  548  2024-09-26 12:50:01 history > ./commandslist.txt
+  549  2024-09-26 12:50:01 # Get the current date and time
+  550  2024-09-26 12:50:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  551  2024-09-26 12:50:01 # Add the commandslist.txt file to Git
+  552  2024-09-26 12:50:01 git add ./commandslist.txt
+  553  2024-09-26 12:50:01 # Commit the changes with the current time in the message
+  554  2024-09-26 12:50:01 git commit -m "Committed at $current_time"
+  555  2024-09-26 12:50:01 # Push the changes to GitHub
+  556  2024-09-26 12:50:01 git push origin main
+  557  2024-09-26 12:55:01 # Load history from the history file manually
+  558  2024-09-26 12:55:01 history -a
+  559  2024-09-26 12:55:01 # Load history from the history file manually
+  560  2024-09-26 12:55:01 history -a
+  561  2024-09-26 12:55:01 # Navigate to your GitHub repo
+  562  2024-09-26 12:55:01 cd ~/Training-Biz-Likhita
+  563  2024-09-26 12:55:01 # Save the history to the commandslist.txt file inside the repo
+  564  2024-09-26 12:55:01 history > ./commandslist.txt
+  565  2024-09-26 12:55:01 # Get the current date and time
+  566  2024-09-26 12:55:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  567  2024-09-26 12:55:01 # Add the commandslist.txt file to Git
+  568  2024-09-26 12:55:01 git add ./commandslist.txt
+  569  2024-09-26 12:55:01 # Commit the changes with the current time in the message
+  570  2024-09-26 12:55:01 git commit -m "Committed at $current_time"
+  571  2024-09-26 12:55:01 # Push the changes to GitHub
+  572  2024-09-26 12:55:01 git push origin main
+  573  2024-09-26 13:00:01 # Load history from the history file manually
+  574  2024-09-26 13:00:01 history -a
+  575  2024-09-26 13:00:01 # Load history from the history file manually
+  576  2024-09-26 13:00:01 history -a
+  577  2024-09-26 13:00:01 # Navigate to your GitHub repo
+  578  2024-09-26 13:00:01 cd ~/Training-Biz-Likhita
+  579  2024-09-26 13:00:01 # Save the history to the commandslist.txt file inside the repo
+  580  2024-09-26 13:00:01 history > ./commandslist.txt
+  581  2024-09-26 13:00:01 # Get the current date and time
+  582  2024-09-26 13:00:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  583  2024-09-26 13:00:01 # Add the commandslist.txt file to Git
+  584  2024-09-26 13:00:01 git add ./commandslist.txt
+  585  2024-09-26 13:00:01 # Commit the changes with the current time in the message
+  586  2024-09-26 13:00:01 git commit -m "Committed at $current_time"
+  587  2024-09-26 13:00:01 # Push the changes to GitHub
+  588  2024-09-26 13:00:01 git push origin main
+  589  2024-09-26 13:05:01 # Load history from the history file manually
+  590  2024-09-26 13:05:01 history -a
+  591  2024-09-26 13:05:01 # Load history from the history file manually
+  592  2024-09-26 13:05:01 history -a
+  593  2024-09-26 13:05:01 # Navigate to your GitHub repo
+  594  2024-09-26 13:05:01 cd ~/Training-Biz-Likhita
+  595  2024-09-26 13:05:01 # Save the history to the commandslist.txt file inside the repo
+  596  2024-09-26 13:05:01 history > ./commandslist.txt
+  597  2024-09-26 13:05:01 # Get the current date and time
+  598  2024-09-26 13:05:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  599  2024-09-26 13:05:01 # Add the commandslist.txt file to Git
+  600  2024-09-26 13:05:01 git add ./commandslist.txt
+  601  2024-09-26 13:05:01 # Commit the changes with the current time in the message
+  602  2024-09-26 13:05:01 git commit -m "Committed at $current_time"
+  603  2024-09-26 13:05:01 # Push the changes to GitHub
+  604  2024-09-26 13:05:01 git push origin main
+  605  2024-09-26 13:10:01 # Load history from the history file manually
+  606  2024-09-26 13:10:01 history -a
+  607  2024-09-26 13:10:01 # Load history from the history file manually
+  608  2024-09-26 13:10:01 history -a
+  609  2024-09-26 13:10:01 # Navigate to your GitHub repo
+  610  2024-09-26 13:10:01 cd ~/Training-Biz-Likhita
+  611  2024-09-26 13:10:01 # Save the history to the commandslist.txt file inside the repo
+  612  2024-09-26 13:10:01 history > ./commandslist.txt
+  613  2024-09-26 13:10:01 # Get the current date and time
+  614  2024-09-26 13:10:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  615  2024-09-26 13:10:01 # Add the commandslist.txt file to Git
+  616  2024-09-26 13:10:01 git add ./commandslist.txt
+  617  2024-09-26 13:10:01 # Commit the changes with the current time in the message
+  618  2024-09-26 13:10:01 git commit -m "Committed at $current_time"
+  619  2024-09-26 13:10:01 # Push the changes to GitHub
+  620  2024-09-26 13:10:01 git push origin main
+  621  2024-09-26 13:15:01 # Load history from the history file manually
+  622  2024-09-26 13:15:01 history -a
+  623  2024-09-26 13:15:01 # Load history from the history file manually
+  624  2024-09-26 13:15:01 history -a
+  625  2024-09-26 13:15:01 # Navigate to your GitHub repo
+  626  2024-09-26 13:15:01 cd ~/Training-Biz-Likhita
+  627  2024-09-26 13:15:01 # Save the history to the commandslist.txt file inside the repo
+  628  2024-09-26 13:15:01 history > ./commandslist.txt
+  629  2024-09-26 13:15:01 # Get the current date and time
+  630  2024-09-26 13:15:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  631  2024-09-26 13:15:01 # Add the commandslist.txt file to Git
+  632  2024-09-26 13:15:01 git add ./commandslist.txt
+  633  2024-09-26 13:15:01 # Commit the changes with the current time in the message
+  634  2024-09-26 13:15:01 git commit -m "Committed at $current_time"
+  635  2024-09-26 13:15:01 # Push the changes to GitHub
+  636  2024-09-26 13:15:01 git push origin main
+  637  2024-09-26 13:20:01 # Load history from the history file manually
+  638  2024-09-26 13:20:01 history -a
+  639  2024-09-26 13:20:01 # Load history from the history file manually
+  640  2024-09-26 13:20:01 history -a
+  641  2024-09-26 13:20:01 # Navigate to your GitHub repo
+  642  2024-09-26 13:20:01 cd ~/Training-Biz-Likhita
+  643  2024-09-26 13:20:01 # Save the history to the commandslist.txt file inside the repo
+  644  2024-09-26 13:20:01 history > ./commandslist.txt
+  645  2024-09-26 13:20:01 # Get the current date and time
+  646  2024-09-26 13:20:01 current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  647  2024-09-26 13:20:01 # Add the commandslist.txt file to Git
+  648  2024-09-26 13:20:01 git add ./commandslist.txt
+  649  2024-09-26 13:20:01 # Commit the changes with the current time in the message
+  650  2024-09-26 13:20:01 git commit -m "Committed at $current_time"
+  651  2024-09-26 13:20:01 # Push the changes to GitHub
+  652  2024-09-26 13:20:01 git push origin main
+  653  2024-09-26 13:25:01 # Load history from the history file manually
+  654  2024-09-26 13:25:01 history -a
+  655  2024-09-26 13:25:01 # Navigate to your GitHub repo
+  656  2024-09-26 13:25:01 cd ~/Training-Biz-Likhita
+  657  2024-09-26 13:25:01 # Save the history to the commandslist.txt file inside the repo
+  658  2024-09-26 13:25:01 history > ./commandslist.txt
